@@ -13,6 +13,18 @@
             width:80%;
             position: relative;
             left: 150px;
+            animation-name:animateModal;
+            animation-duration: 0.5s;
+        }
+        @keyframes animateModal{
+            from{
+                left:-300px;
+                opacity:0;
+            }
+            to{
+                left:0;
+                opacity:1;
+            }
         }
         #btnModal{
             border: 1px solid orangered;
