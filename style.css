@@ -7,7 +7,12 @@
             right:0;
             top:0;
             background: rgba(0,0,0,0.2);
-            padding:200px;
+            padding-top:100px;
+        }
+        .modalContent{
+            width:80%;
+            position: relative;
+            left: 150px;
         }
         #btnModal{
             border: 1px solid orangered;
@@ -32,4 +37,13 @@
         .modalFooter{
             padding : 10px 20px;
 
+        }
+        .close{
+            float: right;
+            color: red;
+            cursor: pointer;
+        }
+
+        .close:hover{
+            color: black;
         }
